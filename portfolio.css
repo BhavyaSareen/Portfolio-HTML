@@ -1,11 +1,33 @@
 /* Add this CSS to your stylesheet */
 .page-scroll.active {
-  color: #ff0000; /* Change this to your desired active link color */
+  text-decoration: underline;
+  background: none;
+  color: blue; /* Change this to your desired active link color */
   /* Add any other styling for active links */
 }
 
+.page-scroll{
+  text-decoration: none;
+  color: black;
+}
+
+.vertical-links {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Optional: Add some margin or padding for spacing between links */
+.vertical-links a {
+  margin-bottom: 10px; /* Adjust as needed */
+}
 
 
+.bg-image {
+  background-image: url('https://source.unsplash.com/kKvQJ6rK6S4/660x1000');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /* Button start */
 .button {
     display: inline-block;
@@ -43,7 +65,7 @@
     top: 180%;
     width: 160%;
     height: 190%;
-    background-color: #39bda7;
+    background-color: blue;
     border-radius: 50%;
     display: block;
     transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
@@ -52,7 +74,7 @@
    
    .button:hover {
     color: #ffffff;
-    border: 1px solid #39bda7;
+    border: 1px solid blue;
    }
    
    .button:hover:before {
@@ -63,7 +85,7 @@
    
    .button:hover:after {
     top: -45%;
-    background-color: #39bda7;
+    background-color: rgb(49, 154, 189);
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
    }
 
