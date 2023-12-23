@@ -28,6 +28,7 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
 /* Button start */
 .button {
     display: inline-block;
@@ -115,8 +116,8 @@
   }
   
   .hamburger-label div {
-    width: 70px;
-    height: 6px;
+    width: 50px;
+    height: 3px;
     background-color: black;
     position: absolute;
   }
@@ -186,9 +187,9 @@
 
 /* start */
 .card-work {
-    width: 190px;
+    width: 220px;
     height: 254px;
-    background: rgb(103, 225, 255);
+    background: rgb(239, 222, 225);
     transition: all 0.4s;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
@@ -201,7 +202,7 @@
     cursor: pointer;
     transform: scale(1.2);
     box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    background: rgb(103, 151, 255);
+    background: #dcd7d7;
   }
   
   .first-content {
@@ -249,7 +250,7 @@
     align-items: center;
     justify-content: center;
 }
-/* start */
+start
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -333,5 +334,23 @@ img {vertical-align: middle;}
 .data{
   font-family:Roboto Condensed ; 
   font-weight:400;
-  font-size:30px;
+  font-size:20px;
+  background-color: #efe5e5;
+}
+
+.pen-style{
+  font-size:100px;
+}
+
+.exp-desc{
+  background-color: #efe5e5;
+}
+
+.contact-icon{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:antiquewhite ;
 }
