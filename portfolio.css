@@ -97,7 +97,8 @@
 .img-card-img{
     position: absolute; 
     left:60px; 
-    bottom: 150px;
+    /* bottom: 150px; */
+    top: -90px;
 }
 /* card end */
 
